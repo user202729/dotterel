@@ -14,9 +14,13 @@ import java.io.*
 
 import nimble.dotterel.translation.*
 import nimble.dotterel.translation.dictionaries.NumbersDictionary
+import nimble.dotterel.translation.dictionaries.SerialEncodingDictionary
 import nimble.dotterel.util.CaseInsensitiveString
 
 private val CODE_DICTIONARIES = mapOf(
+	Pair("SerialEncoding", { keyLayout: KeyLayout ->
+		SerialEncodingDictionary(keyLayout)
+    }),
 	Pair("Numbers", { keyLayout: KeyLayout ->
 		NumbersDictionary(
 			keyLayout,
