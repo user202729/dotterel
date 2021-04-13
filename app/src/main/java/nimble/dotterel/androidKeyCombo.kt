@@ -91,6 +91,23 @@ private val KEY_MAP = mapOf(
 	Pair("up", KEYCODE_DPAD_UP),
 	Pair("space", KEYCODE_SPACE),
 
+    Pair("kp_0", KEYCODE_NUMPAD_0),
+    Pair("kp_1", KEYCODE_NUMPAD_1),
+    Pair("kp_2", KEYCODE_NUMPAD_2),
+    Pair("kp_3", KEYCODE_NUMPAD_3),
+    Pair("kp_4", KEYCODE_NUMPAD_4),
+    Pair("kp_5", KEYCODE_NUMPAD_5),
+    Pair("kp_6", KEYCODE_NUMPAD_6),
+    Pair("kp_7", KEYCODE_NUMPAD_7),
+    Pair("kp_8", KEYCODE_NUMPAD_8),
+    Pair("kp_9", KEYCODE_NUMPAD_9),
+
+    Pair("kp_add", KEYCODE_NUMPAD_ADD),
+    Pair("kp_comma", KEYCODE_NUMPAD_COMMA),
+    Pair("kp_divide", KEYCODE_NUMPAD_DIVIDE),
+    Pair("kp_dot", KEYCODE_NUMPAD_DOT),
+    Pair("kp_enter", KEYCODE_NUMPAD_ENTER),
+
 	Pair("f1", KEYCODE_F1),
 	Pair("f2", KEYCODE_F2),
 	Pair("f3", KEYCODE_F3),
